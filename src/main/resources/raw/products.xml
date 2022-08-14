@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<id>1</id>
+		<name>T-shirt</name>
+		<color>blue</color>
+		<size>M</size>
+		<brand>M-Office</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.025</weight>
+		<packed>false</packed>
+		<detail>Blue T-shit</detail>
+		<img>C:\Users\hyasu\Outlet\img\0003-img.png</img>
+		<category>
+			<id>1</id>
+			<title>Clothing</title>
+		</category>
+	</product>
+	
+	
+	<product>
+		<id>2</id>
+		<name>T-shirt</name>
+		<color>blue</color>
+		<size>M</size>
+		<brand>M-Office</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.025</weight>
+		<packed>false</packed>
+		<detail>Blue T-shit</detail>
+		<img>C:\Users\hyasu\Outlet\img\0014-img.png</img>
+		<category>
+			<id>1</id>
+			<title>Clothing</title>
+		</category>
+	</product>
+	
+	
+	
+	<product>
+		<id>3</id>
+		<name>Pants</name>
+		<color>blue</color>
+		<size>M</size>
+		<brand>M-Office</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.085</weight>
+		<packed>false</packed>
+		<detail>Blue pants</detail>
+		<img>C:\Users\hyasu\Outlet\img\0051-img.png</img>
+		<category>
+			<id>1</id>
+			<title>Clothing</title>
+		</category>
+	</product>
+	
+	
+	<product>
+		<id>4</id>
+		<name>Sweater</name>
+		<color>black</color>
+		<size>M</size>
+		<brand>M-Office</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.025</weight>
+		<packed>false</packed>
+		<detail>Black sweater</detail>
+		<img>C:\Users\hyasu\Outlet\img\0134-img.png</img>
+		<category>
+			<id>1</id>
+			<title>Clothing</title>
+		</category>
+	</product>
+	
+	
+	<product>
+		<id>5</id>
+		<name>Sweater</name>
+		<color>blue</color>
+		<size>M</size>
+		<brand>M-Office</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.095</weight>
+		<packed>false</packed>
+		<detail>Blue sweater</detail>
+		<img>C:\Users\hyasu\Outlet\img\0136-img.png</img>
+		<category>
+			<id>1</id>
+			<title>Clothing</title>
+		</category>
+	</product>
+	
+	<product>
+		<id>6</id>
+		<name>Padlock</name>
+		<color>Silver</color>
+		<size>M</size>
+		<brand>Tsa</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.025</weight>
+		<packed>false</packed>
+		<detail>Tsa combination padlock</detail>
+		<img>C:\Users\hyasu\Outlet\img\0119-img.png</img>
+		<category>
+			<id>2</id>
+			<title>Tools and Home Improvement</title>
+		</category>
+	</product>
+	
+	<product>
+		<id>7</id>
+		<name>Mouse</name>
+		<color>blue</color>
+		<size>Medium</size>
+		<brand>Logitech</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.025</weight>
+		<packed>false</packed>
+		<detail>Blue mouse</detail>
+		<img>C:\Users\hyasu\Outlet\img\0122-img.png</img>
+		<category>
+			<id>3</id>
+			<title>Electronics</title>
+		</category>
+	</product>
+	
+	<product>
+		<id>8</id>
+		<name>Keyboard</name>
+		<color>blue</color>
+		<size>M</size>
+		<brand>Logitech</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.715</weight>
+		<packed>false</packed>
+		<detail>Blue logitech keyboard</detail>
+		<img>C:\Users\hyasu\Outlet\img\0121-img.png</img>
+		<category>
+			<id>3</id>
+			<title>Electronics</title>
+		</category>
+	</product>
+	
+	<product>
+		<id>9</id>
+		<name>Glasses</name>
+		<color>black</color>
+		<size>M</size>
+		<brand>Tomy</brand>
+		<state>new</state>
+		<qty>1</qty>
+		<weight>0.125</weight>
+		<packed>false</packed>
+		<detail>Black glasses</detail>
+		<img>C:\Users\hyasu\Outlet\img\0049-img.png</img>
+		<category>
+			<id>4</id>
+			<title>Vision Products</title>
+		</category>
+	</product>
+	
+	<product>
+		<id>10</id>
+		<name>Batteries</name>
+		<color>black</color>
+		<size>AAA</size>
+		<brand>Duracel</brand>
+		<state>old</state>
+		<qty>1</qty>
+		<weight>0.025</weight>
+		<packed>false</packed>
+		<detail>Rechargeable batteries</detail>
+		<img>C:\Users\hyasu\Outlet\img\0127-img.png</img>
+		<category>
+			<id>5</id>
+			<title>Household Batteries</title>
+		</category>
+	</product>
+	
+	
+</products>

@@ -1,0 +1,12 @@
+#cardView {
+	-fx-background-color: #c8e6c9;
+}
+
+#cardView .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+#cardView .list-cell {
+    -fx-background-color: #c8e6c9;   
+    -fx-alignment: center ;
+}

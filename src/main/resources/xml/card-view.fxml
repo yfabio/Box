@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="500.0" maxWidth="500.0"
+	prefHeight="500.0" prefWidth="500.0"
+	style="-fx-background-color: #c8e6c9;"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.tech.home.CardController">
+	<children>
+		<StackPane blendMode="SRC_ATOP"
+			style="-fx-background-radius: 25; -fx-background-color: white;">
+			<children>
+				<GridPane alignment="CENTER">
+					<columnConstraints>
+						<ColumnConstraints halignment="CENTER"
+							hgrow="SOMETIMES" />
+					</columnConstraints>
+					<rowConstraints>
+						<RowConstraints maxHeight="333.0" minHeight="197.0"
+							prefHeight="265.0" valignment="CENTER" vgrow="SOMETIMES" />
+						<RowConstraints maxHeight="327.0" minHeight="197.0"
+							prefHeight="259.0" vgrow="SOMETIMES" />
+					</rowConstraints>
+					<children>
+						<HBox prefHeight="235.0" prefWidth="363.0">
+							<children>
+								<ImageView fx:id="mCardImage" blendMode="SRC_ATOP"
+									cache="true" cacheHint="QUALITY" fitHeight="235.0"
+									fitWidth="441.0">
+									<image>
+										<Image
+											url="@../../../../../../../../Outlet/img/0134-img.png" />
+									</image>
+								</ImageView>
+							</children>
+						</HBox>
+						<AnchorPane GridPane.rowIndex="1">
+							<children>
+								<VBox alignment="TOP_CENTER" prefHeight="223.0"
+									prefWidth="474.0" spacing="5.0" AnchorPane.bottomAnchor="0.0"
+									AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+									AnchorPane.topAnchor="0.0">
+									<children>
+										<Label fx:id="mCardHeader" text="Clothing">
+											<font>
+												<Font size="18.0" />
+											</font>
+										</Label>
+										<Label fx:id="mCardTitle" text="Sweater">
+											<font>
+												<Font size="24.0" />
+											</font>
+										</Label>
+										<Label fx:id="mCardText"
+											text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis mollitia commodi expedita dolor! Exercitationem consectetur omnis sint recusandae eaque, optio hic commodi ipsa suscipit sapiente ipsum aspernatur blanditiis iste voluptatum dolores veniam nesciunt voluptatem iure ex minus quam? Praesentium earum ducimus dicta! Ut, quis? Repellat labore quisquam architecto a. Veniam corporis laudantium placeat nisi nam! Ducimus, dolores quasi deserunt labore deleniti dolor asperiores ipsa, explicabo harum, velit dolorum. Expedita, cum?"
+											textAlignment="CENTER" wrapText="true" />
+										<Label fx:id="mCardFooter" text="It's in the bag!"
+											textFill="#ee7777">
+											<font>
+												<Font name="System Bold" size="18.0" />
+											</font>
+										</Label>
+									</children>
+									<padding>
+										<Insets bottom="10.0" left="10.0" right="10.0"
+											top="10.0" />
+									</padding>
+								</VBox>
+							</children>
+						</AnchorPane>
+					</children>
+				</GridPane>
+			</children>
+		</StackPane>
+	</children>
+	<padding>
+		<Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+	</padding>
+</VBox>

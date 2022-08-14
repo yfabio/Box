@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<StackPane style="-fx-background-color: #c8e6c9;"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.tech.category.CategoryController">
+	<children>
+		<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity">
+			<children>
+				<VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+					AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+					<children>
+						<StackPane>
+							<children>
+								<fx:include fx:id="categoryForm" source="category-view-form.fxml" />
+							</children>
+						</StackPane>
+						<StackPane>
+							<children>
+								<fx:include fx:id="categoryAction" source="category-view-action.fxml" />
+							</children>
+						</StackPane>
+						<StackPane>
+							<children>
+								<fx:include fx:id="categoryTable" source="category-view-table.fxml" />
+							</children>
+						</StackPane>
+					</children>
+				</VBox>
+			</children>
+		</AnchorPane>
+	</children>
+</StackPane>

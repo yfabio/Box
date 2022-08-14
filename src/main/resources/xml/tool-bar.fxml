@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox   id="tool_bar"
+		alignment="CENTER_LEFT" 
+		maxHeight="-Infinity" maxWidth="-Infinity" 
+		minHeight="-Infinity" minWidth="-Infinity" 
+		spacing="10.0" 
+		stylesheets="@../css/tool-bar.css" 
+		xmlns:fx="http://javafx.com/fxml/1"		 
+		fx:controller="com.tech.menu.ToolBarController">
+   <children>
+      <Button mnemonicParsing="false" text="Home" onAction="#onHome">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/48/home.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button mnemonicParsing="false" text="Product" onAction="#onProduct">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/48/add_circle.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button mnemonicParsing="false" text="Category" onAction="#onCategory">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/48/category.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>   
+      <Button mnemonicParsing="false" text="Brand" onAction="#onBrand">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/48/brand.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>      
+      <Button mnemonicParsing="false" text="Shutdown" onAction="#onShutdown">
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/48/power_off.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="5.0" top="10.0" />
+   </padding>
+</HBox>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1080.0"
+	style="-fx-background-color: #c8e6c9;"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.tech.product.ProductController">
+	<children>
+		<VBox prefHeight="600.0" prefWidth="1080.0"
+			AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+			AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<children>
+				<StackPane>
+					<children>
+						<fx:include fx:id="productForm" source="product-view-form.fxml" />
+					</children>
+				</StackPane>
+				<StackPane>
+					<children>
+						<fx:include fx:id="productAction" source="product-view-action.fxml" />
+					</children>
+				</StackPane>
+				<StackPane>
+					<children>
+						<fx:include fx:id="productTable" source="product-view-table.fxml" />
+					</children>
+				</StackPane>
+			</children>
+		</VBox>
+	</children>
+</AnchorPane>

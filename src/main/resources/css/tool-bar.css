@@ -1,0 +1,15 @@
+#tool_bar{
+	-fx-background-color: #97b498;
+}
+
+.button {
+	-fx-background-radius: 50px;
+	-fx-pref-width: 100.0px;
+	-fx-pref-height: 40.0px;	
+	-fx-text-fill: black;		
+}
+
+.button:hover {
+	-fx-background-color: #fbfffc; 	
+} 
+
