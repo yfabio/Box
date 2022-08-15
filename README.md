@@ -13,6 +13,18 @@ is for you to keep track of any belongs you have.
   <li>Friendly design</li>  
 </ul>
 
+
+<h3>Technologies and frameworks</h3>
+
+<ul>
+  <li>JavaFX</li>
+  <li>FxWeaver</li>
+  <li>SpringBoot</li>
+  <li>H2 database</li>
+  <li>Controlsfx</li>  
+</ul>
+
+
 # Home Screen
 
   <p>
