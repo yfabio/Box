@@ -1,7 +1,7 @@
 # JavaFX Box
 
 Have you ever wondered what is in your wardrobe and forgot that you had thrown your favorite garment away, then this app 
-is for you to keep track of any belongs you have.  
+is for you to keep track of any belongs you might have.  
 
 <h3>Features</h3>
 
